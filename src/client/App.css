@@ -1,0 +1,38 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100vw;
+}
+
+.workspace {
+  display: flex;
+  flex: 1;
+  overflow: hidden;
+}
+
+.canvas {
+  flex: 1;
+  height: 100%;
+}
+
+.react-flow__node {
+  border: 2px solid #1a192b;
+  border-radius: 8px;
+  background: white;
+  padding: 10px;
+  min-width: 200px;
+}
+
+.react-flow__node.selected {
+  border-color: #ff6b6b;
+  box-shadow: 0 0 0 2px #ff6b6b33;
+}
+
+.react-flow__handle {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: #555;
+  border: 2px solid white;
+}
