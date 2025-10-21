@@ -1,0 +1,65 @@
+.http-request-node {
+  min-width: 280px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.node-header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 12px;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  border-radius: 8px 8px 0 0;
+  font-weight: 600;
+}
+
+.node-icon {
+  font-size: 20px;
+}
+
+.node-title {
+  font-size: 14px;
+}
+
+.node-body {
+  padding: 12px;
+}
+
+.form-group {
+  margin-bottom: 12px;
+}
+
+.form-group:last-child {
+  margin-bottom: 0;
+}
+
+.form-group label {
+  display: block;
+  font-size: 12px;
+  font-weight: 500;
+  color: #666;
+  margin-bottom: 4px;
+}
+
+.form-select,
+.form-input {
+  width: 100%;
+  padding: 6px 8px;
+  border: 1px solid #e0e0e0;
+  border-radius: 4px;
+  font-size: 13px;
+  transition: border-color 0.2s;
+}
+
+.form-select:focus,
+.form-input:focus {
+  outline: none;
+  border-color: #667eea;
+}
+
+.form-input::placeholder {
+  color: #999;
+}
